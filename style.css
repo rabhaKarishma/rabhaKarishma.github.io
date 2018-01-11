@@ -1,0 +1,98 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html, body{
+
+	height: 100%;
+}
+
+body{
+
+	background: url(background.jpg) no-repeat center center;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+
+.container{
+
+	max-width: 600px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+h1{
+
+	color: #ddf3ff;
+	font-size: 56px;
+	font-family: 'Sacramento', cursive;
+	text-shadow: 0px 2px 4px rgba(0, 0 , 0, 0.6);
+	margin-bottom :29px;
+}
+
+.btn{
+
+	background: linear-gradient(45deg, rgba(255,133,112,0.65) 0% , rgba(255,94,185,0.65) 51% , rgba(239,39,125,0.65) 100% );
+	border-radius: 4px;
+	padding: 20px 48px;
+	color: #FFFFFF;
+	font: 20px;
+	font-family: 'Life Savers', cursive;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-shadow:  0px 2px 4px rgba(0, 0 , 0, 0.6);
+	-webkit-border-radius: 158px 158px 158px 158px;
+	border: 5px dotted #ffffff;
+	margin-bottom: 100px;
+   
+}
+
+.btn:hover{
+
+	 -webkit-box-shadow: -1.5px 1.5px 32px 14px rgba(255,255,255,0.71);
+-moz-box-shadow: -1.5px 1.5px 32px 14px rgba(255,255,255,0.71);
+	 -webkit-transition: box-shadow 1s ease;
+	 transition: box-shadow is ease;
+
+}
+
+
+h4{
+
+	color: #ddf3ff;
+	font-size: 26px;
+	font-family: 'Sacramento', cursive;
+	text-shadow: 0px 2px 4px rgba(0, 0 , 0, 0.6);
+	margin-top: 150px;
+
+}
+
+/*footer{
+	margin: 0;
+}
+
+footer p{
+	float: right;
+	align-content: bottom;
+	margin-right: 20px;
+	margin-bottom: : 10px;
+	color: #ffc9ff;
+	font-family: 'Lobster', cursive;
+	text-shadow:  0px 2px 4px rgba(0, 0 , 0, 0.6);
+}
+
+.footer-text{
+	color: white;
+
+}
+
+.footer-text:hover{
+
+	color: #f77ef7;
+
+}*/

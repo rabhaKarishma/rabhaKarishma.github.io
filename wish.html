@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Let's wish!</title>
+	<link href="https://fonts.googleapis.com/css?family=Life+Savers|Sacramento" rel="stylesheet">
+	<link rel="icon" type="img/png" href="icon4.png">
+	<style rel="stylesheet" type="text/css">
+			
+		body{
+
+			background: url(background5.jpg) no-repeat center center fixed;
+			-webkit-background-size: cover;
+			-moz-background-size:cover;
+			-o-background-size:cover;
+			background-size: cover;
+			margin: 0;
+			padding: 0;
+		}
+
+		.container{
+			
+			text-align: center;
+			max-width: 600px;
+			height: 470px;
+			margin: 0 auto;
+			background: rgba(52,73,94,0.7);
+			
+			margin-top: 100px;
+			-webkit-border-radius: 123px 22px 154px 11px;
+			border: 3px dashed #edd8ed;
+			
+			}
+
+			h1{
+				padding-top: 20px;
+				color: #ddf3ff;
+				font-size: 40px;
+				font-family: 'Sacramento', cursive;
+	   			text-shadow: 0px 2px 4px rgba(0, 0 , 0, 0.6);
+				margin-bottom :9px;
+			}
+
+			input[type="text"]{
+				height: 250px;
+				width: 420px;
+				font-size: 50px;
+				margin-bottom: 30px;
+				background-color: #fff;
+				padding-left: 20px;
+				font-family: 'Sacramento', cursive;
+				padding-top: 5px;
+				-webkit-border-radius: 33px 33px 33px 33px;
+			    border: 3px dashed #edd8ed;
+			}
+
+			
+				.btn{
+				
+				background: linear-gradient(45deg, rgba(255,133,112,0.65) 0% , rgba(255,94,185,0.65) 51% , rgba(239,39,125,0.65) 100% );
+				border-radius: 4px;
+				margin-top: 1px;
+				color: #FFFFFF;
+				font: 10px;
+				font-family: 'Life Savers', cursive;
+				text-decoration: none;
+				text-transform: uppercase;
+				letter-spacing: 1px;
+				text-shadow:  0px 2px 4px rgba(0, 0 , 0, 0.6);
+	            -webkit-border-radius: 158px 158px 158px 158px;
+				border: 5px dotted #ffffff;
+				padding-top: 10px;
+				padding-bottom: 10px;
+				padding: 10px 10px;
+   		     }
+
+   		     .btn:hover{
+
+	         -webkit-box-shadow: -1.5px 1.5px 32px 14px rgba(255,255,255,0.71);
+             -moz-box-shadow: -1.5px 1.5px 32px 14px rgba(255,255,255,0.71);
+	        -webkit-transition: box-shadow 1s ease;
+			 transition: box-shadow is ease;
+
+             }
+
+	</style>
+
+	<script type="text/javascript">
+		
+	function check_info(){
+
+		var edit= document.getElementById('edit').value;
+
+		if(edit==""){
+			alert("Please make a wish!");
+			return false;
+		}
+
+		else{
+			return true;
+		}
+
+		
+	}
+
+	</script>
+</head>
+<body>
+
+	<div class="container">
+	<h1>Enter your wish here!</h1>
+		<form action="done.html" method="post" onsubmit="return check_info();">
+			<div >
+				<input type="text" name="edit" id="edit" placeholder="Your Wish">
+			</div>
+			<input type="submit" name="submit" value="wish" class="btn">
+		</form>
+	</div>
+
+</body>
+</html>
